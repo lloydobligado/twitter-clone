@@ -1,10 +1,8 @@
-import React from 'react'
-import Navbar from '../../components/navbar/navbar'
+import React from 'react';
+import Navbar from '../../components/navbar/navbar';
 
-const Explore = () => {
-  return (
-    <Navbar pageTitle = "Explore"/>
-  )
-}
+const ExplorePage = () => {
+  return <Navbar pageTitle="ExplorePage" />;
+};
 
-export default Explore
+export default ExplorePage;

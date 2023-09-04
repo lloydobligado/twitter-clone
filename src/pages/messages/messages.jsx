@@ -1,10 +1,8 @@
-import React from 'react'
-import Navbar from '../../components/navbar/navbar'
+import React from 'react';
+import Navbar from '../../components/navbar/navbar';
 
-const Messages = () => {
-  return (
-    <Navbar pageTitle = "Messages"/>
-  )
-}
+const MessagesPage = () => {
+  return <Navbar pageTitle="MessagesPage" />;
+};
 
-export default Messages
+export default MessagesPage;

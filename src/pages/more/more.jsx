@@ -1,10 +1,8 @@
-import React from 'react'
-import Navbar from '../../components/navbar/navbar'
+import React from 'react';
+import Navbar from '../../components/navbar/navbar';
 
-const More = () => {
-  return (
-    <Navbar pageTitle = "More"/>
-  )
-}
+const MorePage = () => {
+  return <Navbar pageTitle="MorePage" />;
+};
 
-export default More
+export default MorePage;

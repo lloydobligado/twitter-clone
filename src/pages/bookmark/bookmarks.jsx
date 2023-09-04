@@ -1,10 +1,8 @@
-import React from 'react'
-import Navbar from '../../components/navbar/navbar'
+import React from 'react';
+import Navbar from '../../components/navbar/navbar';
 
-const Bookmarks = () => {
-  return (
-    <Navbar pageTitle = "Bookmarks"/>
-  )
-}
+const BookmarksPage = () => {
+  return <Navbar pageTitle="BookmarksPage" />;
+};
 
-export default Bookmarks
+export default BookmarksPage;

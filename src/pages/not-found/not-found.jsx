@@ -1,10 +1,8 @@
-import React from 'react'
-import Navbar from '../../components/navbar/navbar'
+import React from 'react';
+import Navbar from '../../components/navbar/navbar';
 
-const NotFound = () => {
-  return (
-    <Navbar pageTitle = "Not Found"/>
-  )
-}
+const NotFoundPage = () => {
+  return <Navbar pageTitle="Not Found" />;
+};
 
-export default NotFound
+export default NotFoundPage;

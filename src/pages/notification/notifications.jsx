@@ -1,10 +1,8 @@
-import React from 'react'
-import Navbar from '../../components/navbar/navbar'
+import React from 'react';
+import Navbar from '../../components/navbar/navbar';
 
-const Notifications = () => {
-  return (
-    <Navbar pageTitle = "Notifications"/>
-  )
-}
+const NotificationsPage = () => {
+  return <Navbar pageTitle="NotificationsPage" />;
+};
 
-export default Notifications
+export default NotificationsPage;

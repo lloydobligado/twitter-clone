@@ -1,10 +1,8 @@
-import React from 'react'
-import Navbar from '../../components/navbar/navbar'
+import React from 'react';
+import Navbar from '../../components/navbar/navbar';
 
-const Profile = () => {
-  return (
-    <Navbar pageTitle = "Profile"/>
-  )
-}
+const ProfilePage = () => {
+  return <Navbar pageTitle="ProfilePage" />;
+};
 
-export default Profile
+export default ProfilePage;

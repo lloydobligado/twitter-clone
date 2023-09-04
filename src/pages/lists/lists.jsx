@@ -1,10 +1,8 @@
-import React from 'react'
-import Navbar from '../../components/navbar/navbar'
+import React from 'react';
+import Navbar from '../../components/navbar/navbar';
 
-const Lists = () => {
-  return (
-    <Navbar pageTitle = "Lists"/>
-  )
-}
+const ListsPage = () => {
+  return <Navbar pageTitle="ListsPage" />;
+};
 
-export default Lists
+export default ListsPage;
